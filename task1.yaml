@@ -1,0 +1,6 @@
+- name: job name
+  description: 'job 1'
+  loglevel: INFO
+  sequence:
+    commands:
+      - exec: echo "test"
